@@ -1,4 +1,3 @@
-<script type="text/javascript">
 var embedimSnow=document.getElementById("embedim--snow");
 if(!embedimSnow){let embRand2=function(min,max)
 {return Math.floor(Math.random()*(max-min+1))+min}
@@ -19,6 +18,4 @@ embedimSnow.id="embedim--snow";embedimSnow.innerHTML="
 <style>
 #embedim--snow{position:fixed;left:0;top:0;bottom:0;
 width:100vw;height:100vh;overflow:hidden;z-index:9999999;pointer-events:none}"+embCSS+"
-</style>
-"+embHTML;document.body.appendChild(embedimSnow)}
-</script>
+</style>"+embHTML;document.body.appendChild(embedimSnow)}
